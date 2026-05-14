@@ -1,0 +1,21 @@
+
+PROJECT: Telco Customer Churn Analysis
+
+BUSINESS PROBLEM:
+A telecom company is losing customers to competitors.
+The business team needs to understand:
+  1. Which customer segments have the highest churn rate?
+  2. What contract types, tenure, and services drive churn?
+  3. How much revenue is at risk from churning customers?
+  4. What interventions can reduce churn rate?
+
+DATASET:
+  Source   : IBM Sample Data (Kaggle)
+  Size     : 7,043 customers, 21 features
+  Churn Rate: ~26.5% (1,869 churned out of 7,043)
+
+SUCCESS METRICS:
+  - Identify top 3 churn drivers from EDA
+  - SQL queries showing revenue at risk by segment
+  - Dashboard with churn rate by contract, tenure, charges
+  - Business recommendation with estimated retention value
